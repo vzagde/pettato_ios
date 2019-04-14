@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.huzaifrangila.pettato" version="3.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" versionCode="10">
+<widget id="com.huzaifrangila.pettato" version="3.1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" versionCode="10">
     <name>Pettato</name>
     <description>
         Social and Business Connectivity platform for pet owners and Pet Businesses
