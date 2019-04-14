@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.huzaifrangila.pettato" version="2.33.98" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" versionCode="10">
+<widget id="com.huzaifrangila.pettato" version="3.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" versionCode="10">
     <name>Pettato</name>
     <description>
         Social and Business Connectivity platform for pet owners and Pet Businesses
@@ -14,10 +14,10 @@
     <preference name="android-minSdkVersion" value="15" />
     <preference name="android-targetSdkVersion" value="26"/>
     <preference name="orientation" value="portrait" />
-    <!-- <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
     <preference name="StatusBarBackgroundColor" value="#BE1912" />
     <preference name="AndroidLaunchMode" value="singleInstance" />
-    <preference name="StatusBarStyle" value="lightcontent" /> -->
+    <preference name="StatusBarStyle" value="lightcontent" />
     <icon src="app_icon.png" />
     <platform name="android">
         <icon density="hdpi" src="www/res/icon/android/drawable-hdpi-icon.png" />
@@ -71,8 +71,8 @@
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
-    <allow-intent href="http://notchitup.in/*/*" />
-    <allow-intent href="https://notchitup.in/*/*" />
+    <allow-intent href="http://pettato.com/*/*" />
+    <allow-intent href="https://pettato.com/*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
@@ -120,8 +120,8 @@
     <platform name="android">
         <preference name="AndroidLaunchMode" value="singleTask"/>
     </platform>
-    <platform name="android">
-        <resource-file src="google-services.json" target="google-services.json" />
+    <platform name="ios">
+        <resource-file src="GoogleService-Info.plist" />
     </platform>
     <plugin name="phonegap-plugin-push" spec="1.10.5">
         <variable name="SENDER_ID" value="836033005549" />
