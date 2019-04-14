@@ -1,0 +1,58 @@
+<div data-page="create_issue_feed" class="page">
+    <div class="navbar header">
+        <div class="navbar-inner">
+            <div class="left"><a href="#" class="back link icon-only"><i class="material-icons color_8ac640">arrow_back</i></a></div>
+            <div style="font-size:0.8em !important; margin:0 16% !important;" class="center title1" id="single-header"></div>
+            <img src="img/header-right.png" class="right" alt="" />
+        </div>
+    </div>
+    <div class="page-content padt0 feeds_form_box">
+        <div class="list-block f_box inputs-list">
+            <ul>
+                <li class="item-content create_feed_pic">
+                    <div class="item-inner pad0">
+                        <div class="item-input">
+                            <img src="img/lazyload.jpg" width="100%" class="CNGDynImg">
+                            <a href="#" id="create_feed-image_btn" onclick="open_dialog_for_image('feed_image')" class="floating-button black_clr" style="top: -30px">
+                                <img src="img/photo-camera.png" style="width: 40px;">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li style="margin-top:2%;" class="align-top">
+                    <div class="item-content">
+                        <div class="item-inner">
+                            <div class="item-input1">
+                                <textarea class="white_border first_t" placeholder="Description" style="color: #333333 !important" id="create_abuse_feed-description"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="content-block submit-btn">
+            <a href="#" class="button button-big" onclick="add_abuse_feed()">Create Feed</a>
+        </div>
+        <br><br>
+    </div>
+    <div class="toolbar tabbar toolbar-fixed toolbar-bottom toolbar-bottom-md">
+        <div class="toolbar-inner">
+            <a href="#" class="tab-link offers" onclick="goto_page('feeds.html')">
+                <img src="img/continuous-feed-paper.png" width="32%">
+            </a>
+            <a href="#" class="tab-link create_feed" onclick="goto_page('create_feed.html')">
+                <img src="img/camera2.png" width="36%">
+            </a>
+            <a href="#" class="tab-link notifications" onclick="goto_profile()">
+                <img src="img/user.png" width="32%">
+            </a>
+            <a href="#" class="tab-link chats" onclick="goto_page('chats.html')">
+                <span class="badge bg-red dynamic_messagecount"></span>
+                <img src="img/comments.png" width="32%">
+            </a>
+            <a href="#" class="tab-link notifications" onclick="goto_page('search.html')">
+                <img src="img/magnifier.png" width="32%">
+            </a>
+        </div>
+    </div>
+</div>

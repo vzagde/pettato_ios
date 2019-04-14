@@ -1,0 +1,78 @@
+{
+  "_from": "cordova-plugin-file-transfer@1.3.0",
+  "_id": "cordova-plugin-file-transfer@1.3.0",
+  "_inBundle": false,
+  "_integrity": "sha1-E8nwyriVg8B0Yd6kewaBllUEUeM=",
+  "_location": "/cordova-plugin-file-transfer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-plugin-file-transfer@1.3.0",
+    "name": "cordova-plugin-file-transfer",
+    "escapedName": "cordova-plugin-file-transfer",
+    "rawSpec": "1.3.0",
+    "saveSpec": null,
+    "fetchSpec": "1.3.0"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-file-transfer/-/cordova-plugin-file-transfer-1.3.0.tgz",
+  "_shasum": "13c9f0cab89583c07461dea47b068196550451e3",
+  "_spec": "cordova-plugin-file-transfer@1.3.0",
+  "_where": "/Applications/MAMP/htdocs/pettato/pettato-finale-app/pettato",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://github.com/apache/cordova-plugin-file-transfer/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-file-transfer",
+    "platforms": [
+      "android",
+      "amazon-fireos",
+      "ubuntu",
+      "blackberry10",
+      "ios",
+      "wp7",
+      "wp8",
+      "windows8",
+      "windows",
+      "firefoxos",
+      "browser"
+    ]
+  },
+  "deprecated": "This plugin has been deprecated",
+  "description": "Cordova File Transfer Plugin",
+  "homepage": "https://github.com/apache/cordova-plugin-file-transfer#readme",
+  "keywords": [
+    "cordova",
+    "file",
+    "transfer",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-amazon-fireos",
+    "cordova-ubuntu",
+    "cordova-blackberry10",
+    "cordova-ios",
+    "cordova-wp7",
+    "cordova-wp8",
+    "cordova-windows8",
+    "cordova-windows",
+    "cordova-firefoxos",
+    "cordova-browser"
+  ],
+  "license": "Apache 2.0",
+  "name": "cordova-plugin-file-transfer",
+  "peerDependencies": {
+    "cordova-plugin-file": ">=3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache/cordova-plugin-file-transfer.git"
+  },
+  "version": "1.3.0"
+}

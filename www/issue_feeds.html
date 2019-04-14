@@ -1,0 +1,50 @@
+<div data-page="issue_feeds" class="page">
+    <div class="navbar header">
+        <div class="navbar-inner">
+            <div class="left">
+                <a href="#" class="open-panel link icon-only">
+                    <span class="badge bg-red dynamic_notificationcount" style="right: 5px !important; line-height: initial; padding: 2px 2px 0"></span>
+					<i class="material-icons color_8ac640">menu</i>
+				</a>
+            </div>
+            <div class="center title1"></div>
+			<img src="img/header-right.png" class="right" alt="" />
+        </div>
+    </div>
+    <div class="speed-dial">
+        <a href="#" class="floating-button">
+            <i class="material-icons icon-plus">menu</i>
+            <i class="icon icon-close"></i>
+        </a>
+        <div class="speed-dial-buttons">
+            <a href="#" class="white_heart bg_grren3" onclick="goto_page('create_issue_feed.html')">
+                <i class="material-icons">add</i>
+            </a>
+        </div>
+    </div>
+    <div class="page-content padt0">
+        <div class="content-block f_box" id="issues_feeds-container">
+        </div>
+        <br><br>
+    </div>
+    <div class="toolbar tabbar toolbar-fixed toolbar-bottom toolbar-bottom-md">
+        <div class="toolbar-inner">
+            <a href="#" class="tab-link offers" onclick="goto_page('feeds.html')">
+                <img src="img/continuous-feed-paper.png" width="32%">
+            </a>
+            <a href="#" class="tab-link create_feed" onclick="goto_page('create_feed.html')">
+                <img src="img/camera2.png" width="36%">
+            </a>
+            <a href="#" class="tab-link notifications" onclick="goto_profile()">
+                <img src="img/user.png" width="32%">
+            </a>
+            <a href="#" class="tab-link chats" onclick="goto_page('chats.html')">
+                <span class="badge bg-red dynamic_messagecount"></span>
+                <img src="img/comments.png" width="32%">
+            </a>
+            <a href="#" class="tab-link notifications" onclick="goto_page('search.html')">
+                <img src="img/magnifier.png" width="32%">
+            </a>
+        </div>
+    </div>
+</div>

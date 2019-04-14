@@ -1,0 +1,112 @@
+<div data-page="profile_shopper_pet" class="page">
+    <div class="navbar header">
+        <div class="navbar-inner">
+            <!-- <div class="left">
+                <a href="#" class="open-panel link icon-only">
+					<i class="material-icons color_8ac640">menu</i>
+				</a>
+            </div> -->
+            <div class="left"><a href="#" class="back link icon-only"><i class="material-icons color_8ac640">arrow_back</i></a></div>
+            <div class="center title1"></div>
+            <a href="#" class="right share_profileButtonhide" style="margin-right: 10%;" data-title="" data-image_link="" onclick="sharePetProfile();">
+				<i class="material-icons color_8ac640">share</i>
+			</a>
+	        <a href="#" class="right edit_profileButtonhide" style="margin-right: 20%;" onclick="goto_page('edit_profile_pet.html');">
+				<i class="material-icons color_8ac640">edit</i>
+			</a>
+			<img src="img/header-right.png" class="right" alt="" />
+        </div>
+    </div>
+    <div class="page-content padt0">
+        <div class="content-block f_box">
+			<div class="c_b">
+				<div class="cover_box">
+					<img width="100%" src="img/pet_profile_cover_pic.jpg" alt="" class="pet_cover_image">
+				</div>
+				<div class="row">
+					<div class="col-33 hide">
+						<div class="pro_pic1">
+							<img width="100%" src="img/pet_profile_pic.jpg" alt="" class="pet_profie_image">
+						</div>
+					</div>
+					<div class="col-100">
+						<div class="row">
+                            <div class="col-20 text-center hideforOthers">
+                            </div>
+							<div class="col-20 text-center hideforOthers" onclick="goto_page('pet_dating.html');">
+								<img src="img/pet.png" width="50%">
+								<p class="mrg0 color_757575 font-CooperHewittLight">Dating</p>
+							</div>
+							<div class="col-20 text-center hideforOthers">
+                                <a href="#" data-popup=".popup-lostfound" class="open-popup color_757575 mrg0" style="font-size: 13px">
+    								<img src="img/disease.png" width="50%">
+    								<p class="mrg0 color_757575 font-CooperHewittLight">Lost</p>
+                                </a>
+							</div>
+							<div class="col-20 text-center hideforOthers" onclick="add_to_adoption();">
+								<img src="img/dog-leads.png" width="50%">
+								<p class="mrg0 color_757575 font-CooperHewittLight">Adoption</p>
+							</div>
+                            <div class="col-20 text-center hideforOthers">
+                            </div>
+						</div>
+					</div>
+					<div class="col-100 pet_details_profile_tb">
+						<div class="pet_details_profile_tb_row">
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div style="clear: both"></div>
+        </div>
+    </div>
+    <div class="toolbar tabbar toolbar-fixed toolbar-bottom toolbar-bottom-md">
+        <div class="toolbar-inner">
+            <a href="#" class="tab-link offers" onclick="goto_page('feeds.html')">
+                <img src="img/continuous-feed-paper.png" width="32%">
+            </a>
+            <a href="#" class="tab-link create_feed" onclick="goto_page('create_feed.html')">
+                <img src="img/camera2.png" width="36%">
+            </a>
+            <a href="#" class="tab-link notifications" onclick="goto_profile()">
+                <img src="img/user.png" width="32%">
+            </a>
+            <a href="#" class="tab-link chats" onclick="goto_page('chats.html')">
+                <span class="badge bg-red dynamic_messagecount"></span>
+                <img src="img/comments.png" width="32%">
+            </a>
+            <a href="#" class="tab-link notifications" onclick="goto_page('search.html')">
+                <img src="img/magnifier.png" width="32%">
+            </a>
+        </div>
+    </div>
+    <div class="popup popup-lostfound">
+        <div class="content-block pad_55">
+            <p>LOST & FOUND</p>
+            <div class="list-block inputs-list">
+                <ul>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-input">
+                                <textarea id="lost_found_content" name="lost_found_content" placeholder="Description"></textarea>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="content-block register-btn" style="margin-top: 10% !important;">
+                <a href="#" id="" class="button button-big lo_gin" onclick="add_lostfound()">ADD TO LOST AND FOUND</a>
+            </div>
+            <br>
+            <div class="content-block register-btn" style="margin-top: 10% !important;">
+                <a href="#" id="" class="button button-big lo_gin" onclick="remove_lostfound()">REMOVE FROM LOST AND FOUND</a>
+            </div>
+            <br>
+            <div class="content-block register-btn mrg0">
+                <a id="close_popup_review" href="#" class="close-popup close-popup_review button button-big lo_gin"">CANCEL</a>
+            </div>
+            <p style="display: none;"><a href="#" class="close-popup">Cancel</a></p>
+        </div>
+    </div>
+
+</div>

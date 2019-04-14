@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'CooperHewitt-Medium';
+  src: url('CooperHewitt-Medium.eot');
+  src: url('CooperHewitt-Medium.woff2') format('woff2'),
+       url('CooperHewitt-Medium.woff') format('woff'),
+       url('CooperHewitt-Medium.ttf') format('truetype'),
+       url('CooperHewitt-Medium.svg#CooperHewitt-Medium') format('svg'),
+       url('CooperHewitt-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, p, div, section, ul, li, input, select, textarea, iframe {
+  font-family: 'CooperHewitt-Medium' !important;
+  letter-spacing: 1.2px !important;
+}

@@ -1,0 +1,25 @@
+<div data-page="chat" class="page toolbar-fixed">
+    <div class="navbar header">
+        <div class="navbar-inner">
+            <div class="left"><a href="#" class="back link icon-only"><i class="material-icons color_8ac640">arrow_back</i></a></div>
+            <div class="chat_reviever_id hide"></div>
+            <div>
+                <img src="" class="chat_reviever_img" style="width: 35px; height: 35px; margin-top: 2%; border-radius: 5px;">
+                <span class="chat_reviever_name" style="font-size: 15px; color: #333; vertical-align: super;"></span>
+            </div>
+            <img src="img/header-right.png" class="right" alt="" />
+        </div>
+    </div>
+    <div class="toolbar messagebar">
+        <div class="toolbar-inner">
+            <textarea id="mesage_sent" placeholder="Message"></textarea>
+            <a href="#" class="link" id="send_chat_btn" onclick="send_chat()" value="">
+                <i class="material-icons">send</i>
+            </a>
+        </div>
+    </div>
+    <div class="page-content chat_box_design pad_55">
+        <div class="messages" id="messages_box_dyn">
+        </div>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Pettato",
+  "short_name": "Pettato",
+  "version": "com.huzaifrangila.pettato",
+  "description": "Social and Business Connectivity platform for pet owners and Pet Businesses",
+  "author": "Pettato Enterprise LLP",
+  "icons": [
+    {
+      "src": "app_icon.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
+  "orientation": "portrait",
+  "start_url": "index.html",
+  "theme_color": "#2196f3"
+}

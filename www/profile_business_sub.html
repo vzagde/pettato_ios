@@ -1,0 +1,179 @@
+<div data-page="profile_business_sub" class="page">
+	<div class="navbar header">
+        <div class="navbar-inner">
+            <div class="left">
+                <a href="#" class="link icon-only">
+					<i class="material-icons color_8ac640">menu</i>
+				</a>
+            </div>
+            <div class="center title1"></div>
+	        <a href="#" class="right edit_profileButtonhide" style="margin-right: 10%;" onclick="goto_page('edit_profile_business.html');">
+				<i class="material-icons color_8ac640">edit</i>
+			</a>
+			<img src="img/header-right.png" class="right" alt="" />
+        </div>
+    </div>
+    <div class="page-content padt0">
+        <div class="content-block f_box">
+			<div class="c_b">
+				<div class="cover_box">
+					<img width="100%" src="img/cover_pic.jpg" alt="" class="business_cover_image cover_image_business_sub">
+				</div>
+				<div class="row">
+					<div class="col-65">
+						<div class="col-100">
+							<div class="pro_pic1">
+								<img width="30%" src="img/header-right.png" alt="" class="business_profie_image profie_image_business_sub">
+							</div>
+						</div>
+						<div class="col-100">
+							<p class="p_name p_name_business_sub textupper pad0" data-business_id="">Pettato</p>
+							<p class="p_categories" style="margin-left: 8%"></p>
+						</div>
+					</div>
+					<div class="col-35">
+						<div class="follow_block">
+			                <a href="#" data-userid="" onclick="make_unfollow('business_sub');" class="button business_sub_make_unfollow button-green make_unfollow unfollow">Unfollow</a>
+			                <a href="#" data-userid="" onclick="make_follow('business_sub');" class="button business_sub_make_follow make_follow button-red follow">Follow</a>
+			                <a href="#" data-userid="" onclick="make_chat('business_sub');" class="button business_sub_make_chat button-green make_follow chat">Chat</a>
+			            </div>
+			            <div class="row" style="padding: 20% 10%; color: rgba(0,0,0,0.51) !important">
+						    <div class="col-100 businessfollowersfollowingaccid" data-businessfollowersfollowingaccid="" style="text-align: center; border-bottom: 2px #9acd50 solid;" onclick="goto_profile_list_follow('followers', 'business');">
+						        <h2 class="followers business_sub_followers mrg0 pad0">20</h2>
+						        <h4 style="margin: 0 0 7px;">Followers</h4>
+						    </div>
+						    <!-- <div class="col-50" style="text-align: center; border-bottom: 2px #9acd50 solid;" onclick="goto_profile_list_follow('followings', 'business');">
+						        <h2 class="followings business_sub_followings mrg0 pad0">20</h2>
+						        <h4 style="margin: 0 0 7px;">Following</h4>
+						    </div> -->
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div class="user_blk">
+				<div class="pro_file_icons follow_block call business_make_call" data-businessnumber="">
+					<i class="material-icons">call</i>
+					<p>Call</p>
+				</div>
+				<div class="pro_file_icons chat follow_block">
+					<!-- <a href="#" data-popup=".popup-sendEmail" data-businessemail="" class="open-popup business_email_to color_757575 mrg0" style="font-size: 13px"> -->
+						<center><i class="material-icons">email</i></center>
+					<!-- </a> -->
+					<p class="business_email_to_text" data-businessemail=""></p>
+				</div>
+				<div class="pro_file_icons follow_block">
+					<center><i class="material-icons">location_on</i></center>
+					<p class="business_location_to" data-businesslat="" data-businesslong="" data-company="" data-address="">Location</p>
+				</div>
+			</div>
+			<div class="buttons-row">
+			    <a href="#business_account-feeds" class="tab-link active button mrg0 pad0">Feeds</a>
+			    <a href="#business_account-reviews" class="tab-link button mrg0 pad0">Reviews</a>
+			</div>
+			<div class="tabs">
+			    <div id="business_account-feeds" class="tab active">
+			        <div class="content-block mrg0 pad0">
+					    <div class="user_own_feed f_box">
+							<div class="profile-feed-container f_box">
+							</div>
+						</div>
+			        </div>
+			    </div>
+			    <div id="business_account-reviews" class="tab">
+			    	<div class="content-block mrg0 pad0">
+				        <div class="user_own_feed f_box">
+							<div class="profile-reviews_container f_box">
+							</div>
+						</div>
+			    	</div>
+			    </div>
+			</div>
+        </div>
+    </div>
+    <div class="toolbar tabbar toolbar-fixed toolbar-bottom toolbar-bottom-md">
+        <div class="toolbar-inner">
+            <a href="#" class="tab-link offers" onclick="goto_page('feeds.html')">
+                <img src="img/continuous-feed-paper.png" width="32%">
+            </a>
+            <a href="#" class="tab-link create_feed" onclick="goto_page('create_feed.html')">
+                <img src="img/camera2.png" width="36%">
+            </a>
+            <a href="#" class="tab-link notifications" onclick="goto_profile()">
+                <img src="img/user.png" width="32%">
+            </a>
+            <a href="#" class="tab-link chats" onclick="goto_page('chats.html')">
+                <span class="badge bg-red dynamic_messagecount"></span>
+                <img src="img/comments.png" width="32%">
+            </a>
+            <a href="#" class="tab-link notifications" onclick="goto_page('search.html')">
+                <img src="img/magnifier.png" width="32%">
+            </a>
+        </div>
+    </div>
+	<div class="popup popup-review">
+	    <div class="content-block pad_55">
+	        <p>Add Review</p>
+	        <div class="list-block inputs-list">
+                <ul>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-input">
+                            	<div class="row">
+                            		<div class="col-20"><i id="addBusinessReview1" class="addBusinessReview material-icons">star_rate</i></div>
+                            		<div class="col-20"><i id="addBusinessReview2" class="addBusinessReview material-icons">star_rate</i></div>
+                            		<div class="col-20"><i id="addBusinessReview3" class="addBusinessReview material-icons">star_rate</i></div>
+                            		<div class="col-20"><i id="addBusinessReview4" class="addBusinessReview material-icons">star_rate</i></div>
+                            		<div class="col-20"><i id="addBusinessReview5" class="addBusinessReview material-icons">star_rate</i></div>
+                            	</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-input">
+                                <textarea id="review_comments" name="review_comments" placeholder="Write Comments"></textarea>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="content-block register-btn" style="margin-top: 10% !important;">
+                <a href="#" id="" class="button button-big lo_gin" onclick="add_review_business()">POST REVIEW</a>
+            </div>
+            <br>
+            <div class="content-block register-btn mrg0">
+                <a id="close_popup_review" href="#" class="close-popup close-popup_review button button-big lo_gin"">CANCEL</a>
+            </div>
+	        <p style="display: none;"><a href="#" class="close-popup">Cancel</a></p>
+	    </div>
+	</div>
+	<div class="popup popup-sendEmail">
+	    <div class="content-block pad_55">
+	        <p>Send Email</p>
+	        <div class="list-block inputs-list">
+                <ul>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <input type="text" name="contact_details"  id="contact_details" placeholder="Contact Info">
+                        </div>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-input">
+                                <textarea id="contact_comments" name="contact_comments" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="content-block register-btn" style="margin-top: 10% !important;">
+                <a href="#" id="" class="button button-big lo_gin" onclick="sendEmail()">Send Email</a>
+            </div>
+            <br>
+            <div class="content-block register-btn mrg0">
+                <a id="close_popup_review" href="#" class="close-popup close-popup_review button button-big lo_gin"">CANCEL</a>
+            </div>
+	        <p style="display: none;"><a href="#" class="close-popup">Cancel</a></p>
+	    </div>
+	</div>
+</div>

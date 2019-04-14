@@ -1,0 +1,84 @@
+<div data-page="shopper_register" class="page">
+
+    <div class="navbar header">
+        <div class="navbar-inner">
+            <div class="left"><a href="#" class="back link icon-only"><i class="material-icons color_8ac640">arrow_back</i></a></div>
+            <div class="center title"></div>
+            <img src="img/header-right.png" class="right" alt="" />
+        </div>
+    </div>
+    <div class="page-content" style="padding-top: 50px;">
+        <form>
+            <div class="list-block inputs-list">
+                <ul>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">Name*</div>
+                            <div class="item-input">
+                                <input id="shopper_register-name" type="text" placeholder="Your Name" />
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">Username*</div>
+                            <div class="item-input">
+                                <input id="shopper_register-username" type="text" placeholder="Your Username" />
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">Email ID* (Never Shared)</div>
+                            <div class="item-input">
+                                <input id="shopper_register-email" type="email" placeholder="Your Email ID" />
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">Password*</div>
+                            <div class="item-input">
+                                <input id="shopper_register-password" type="password" placeholder="Your Password" />
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">Confirm Password*</div>
+                            <div class="item-input">
+                                <input id="shopper_register-confirm_password" type="password" placeholder="Confirm Password" />
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="item-link smart-select" data-searchbar="true" data-searchbar-placeholder="Search cities" data-back-on-select="true">
+                            <select name="cities" id="shopper_register-city_select">
+                            </select>
+
+                            <div class="item-content">
+                                <div class="item-inner">
+                                    <div class="item-title">City*</div>
+                                    <div class="item-after"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title">Profile pic</div>
+                            <div class="item-input">
+                                <a href="#" id="shopper_register-profile_btn" onclick="open_dialog_for_image('user_profile')" class="floating-button black_clr btn-center">
+                                    <i class="material-icons">add_a_photo</i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="content-block submit-btn">
+                <a href="#" id="shopper_register-register_btn" class="button button-big" onclick="register_shopper()">Register</a>
+            </div>
+        </form>
+    </div>
+</div>

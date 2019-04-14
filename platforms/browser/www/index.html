@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, height=device-height, viewport-fit=cover, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="theme-color" content="#2196f3">
+    <title>Pettato</title>
+    <link rel="stylesheet" href="./css/framework7.material.min.css">
+    <link rel="stylesheet" href="./css/framework7.material.colors.min.css">
+    <link rel="stylesheet" href="./css/materialize-tags.css">
+    <link rel="stylesheet" type="text/css" href="fonts/cooperhewitt-bold/font.css">
+    <link rel="stylesheet" type="text/css" href="fonts/cooperhewitt-light/font.css">
+    <link rel="stylesheet" type="text/css" href="fonts/cooperhewitt-medium/font.css">
+    <link rel="stylesheet" href="./css/kitchen-sink.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/material-icons.css">
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="statusbar-overlay"></div>
+    <div class="panel-overlay"></div>
+    <div class="panel men_u panel-left panel-reveal">
+        <center><img src="img/neon.png" class="menu_logo" alt="" /></center>
+        <div class="content-block menu_sub">
+            <p><a href="notification.html" class="close-panel menu_a">Notifications&nbsp;&nbsp;<span style="position: initial !important; padding: 5px 5px 0; line-height: initial; top: auto !important; right: auto !important" class="badge bg-red dynamic_notificationcount"></span></a></p>
+            <!-- <p><a href="search.html" class="close-panel menu_a">Search</a></p> -->
+            <div class="list accordion-list">
+                <ul class="nostyle pad0">
+                    <li class="accordion-item"><a href="#" class="item-content item-link menu_a">
+                        <div class="item-inner">
+                            <div class="item-title"><p class="font_weight300">Adoption&nbsp;&nbsp;&nbsp;<i class="material-icons">keyboard_arrow_down</i></p></div>
+                        </div></a>
+                        <div class="accordion-item-content">
+                            <div class="block">
+                                <p><a href="become_parent_list.html" class="close-panel menu_a">Become a parent</a></p>
+                                <p><a href="find_parent_list.html" class="close-panel menu_a">Find a parent</a></p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- <p><a href="become_parent_list.html" class="close-panel menu_a">Become a parent</a></p>
+            <p><a href="find_parent_list.html" class="close-panel menu_a">Find a parent</a></p> -->
+            <p><a href="lost_and_found.html" class="close-panel menu_a">Lost and Found</a></p>
+            <p><a href="issue_feeds.html" class="close-panel menu_a">Report Pet Abuse</a></p>
+            <p><a href="business_profile_list.html" class="close-panel menu_a">Business Profiles</a></p>
+            <p><a href="ambulance.html" class="close-panel menu_a">Ambulance</a></p>
+            <p><a href="pet_cemetry.html" class="close-panel menu_a">Pet Cemetery</a></p>
+            <p><a href="settings.html" class="close-panel menu_a">Settings</a></p>
+            <p><a href="#" onclick="logout()" class="close-panel menu_a">logout</a></p>
+        </div>
+    </div>
+    <div class="views">
+        <div class="view view-main">
+            <div class="pages navbar-fixed toolbar-fixed">
+                <div data-page="index" class="page">
+                    <div class="page-content landing_bg">
+                        <div class="content-block">
+                            <a href="#" class="button index_logo_container"><img src="img/logo.png" class="index_logo"></a>
+                            <a href="#" onclick="continue_btn_signin()" class="button button-raised pettato_btn_trans">SIGN IN</a>
+                            <a href="#" onclick="goto_register('shopper')" class="button button-raised pettato_btn_trans">SIGN UP</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="./js/framework7.min.js"></script>
+    <script type="text/javascript" src="./js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="./js/materialize-tags.js"></script>
+    <script type="text/javascript" src="./js/lockr.min.js"></script>
+    <script src="./js/highcharts.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/drilldown.js"></script>
+    <script type="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/openfb.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC02IhU2ltIStE5pTupa96yXHhUJvUCO7A"></script>
+    <!-- cdnjs -->
+    <script type="text/javascript" src="./js/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.lazy.plugins.min.js"></script>
+    <script type="text/javascript" src="./js/my-app.js"></script>
+    <script type="text/javascript" src="./js/util.js"></script>
+</body>
+</html>

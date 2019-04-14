@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "836033005549",
+    "firebase_url": "https://pettato-f2308.firebaseio.com",
+    "project_id": "pettato-f2308",
+    "storage_bucket": "pettato-f2308.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836033005549:android:be71c3ee918c7598",
+        "android_client_info": {
+          "package_name": "com.huzaifrangila.pettato"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836033005549-3u2vtstme0bnd9mlbl7brnj4ttnfqeov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWocuwiYv_cYb_0lmaPogP85b1hdTjjHY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

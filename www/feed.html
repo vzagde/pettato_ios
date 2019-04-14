@@ -1,0 +1,62 @@
+<div data-page="feed" class="page">
+    <div class="navbar header">
+        <div class="navbar-inner">
+            <div class="left"><a href="#" class="back link icon-only"><i class="material-icons color_8ac640">arrow_back</i></a></div>
+            <div class="center title1" id="single-header"></div>
+            <img src="img/header-right.png" class="right" alt="" />
+            <!-- <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div> -->
+        </div>
+    </div>
+    <div class="toolbar messagebar">
+        <div class="toolbar-inner">
+            <textarea placeholder="Comments" id="feed_comment" data-id=""></textarea>
+            <a href="#" class="link" onclick="add_comment_feed()">
+                <i class="material-icons">send</i>
+            </a>
+        </div>
+    </div>
+    <div class="page-content padt0">
+        <div class="content-block f_box" id="feed-container">
+            <div class="card facebook-card mrg0">
+                <div class="card-content">
+                    <div class="card-content-inner" style="padding: 0 !important">
+                        <img data-src="img/cover_pic.jpg" width="100%" class="lazy lazy-fadein feed_image">
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="link feedDetailsLike" data-feed_id="" onclick="feedLikeStatusChng();"><i class="material-icons color_8ac640">favorite_border</i></a>
+                    <a href="#" class="link feedDetailsShare" data-feed_id="" data-title="" data-image_link="" onclick="feedShareStatusChng(0);"><i class="material-icons color_8ac640">share</i></a>
+                    <a href="#" class="link feedDetailsSave" data-feed_id="" onclick="feedSaveStatusChng();"><i class="material-icons color_8ac640">save</i></a>
+                </div>
+                <div class="card-header">
+                    <div class="facebook-avatar"><img src="img/profile_dummy.jpg" class="inner_pro_pic" width="50" height="50"></div>
+                    <div class="facebook-name feed_creator">Prithvi Shetty</div>
+                    <div class="facebook-date feed_comment_like">9 Comments 5 Likes</div>
+                </div>
+                <div class="no-border">
+                    <div class="desc feed_desc">Taking laxmi out for a bath, The most amazing experience ever! #elefant #pet #bathtime #village</div>
+                </div>
+            </div>
+        </div>
+        <div style="position:relative; margin-top: 0 !important" class="content-block pad0">
+            <div class="page-content messages-content">
+                <div class="messages feed_comments_container" id="feedDetailsMessagesContainer">
+                    <div class="message message-with-avatar message-received"> 
+                        <div class="message-name">Huzaif</div>
+                        <div class="message-text-new">Awesome :)</div>
+                    </div>
+                    <div class="message message-with-avatar message-received">
+                        <div class="message-name">Vishal</div>
+                        <div class="message-text-new">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</div>
+                    </div>
+                    <div class="message message-with-avatar message-received">
+                        <div class="message-name">Siddharth</div>
+                        <div class="message-text-new">when an unknown printer took a galley of type and scrambled it to make a type</div>
+                    </div>
+                </div>
+                <div class="comment_content"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

@@ -1,0 +1,152 @@
+<div data-page="profile_business" class="page">
+	<div class="navbar header">
+        <div class="navbar-inner">
+            <div class="left">
+                <a href="#" class="open-panel link icon-only">
+					<i class="material-icons color_8ac640">menu</i>
+				</a>
+            </div>
+            <div class="center title1"></div>
+			<img src="img/header-right.png" class="right" alt="" />
+        </div>
+    </div>
+    <div class="page-content padt0">
+        <div class="content-block f_box">
+			<div class="c_b">
+				<button onclick="profile_cover_image();" class="button button-big cover_image_btn insert_cover"><i class="material-icons cvr">insert_photo</i></button>
+				<div class="cover_box">
+					<img width="100%" src="img/cover_pic.jpg" alt="" class="business_cover_image">
+				</div>
+				<div class="row">
+					<div class="col-65">
+						<div class="col-100">
+							<div class="pro_pic1">
+								<img width="30%" src="img/header-right.png" alt="" class="business_profie_image">
+							</div>
+						</div>
+						<div class="col-100">
+							<p class="p_name p_name_business_sub textupper">Pettato</p>
+							<p class="p_name1_business_sub"></p>
+							<p class="p_categories" style="margin-left: 8%"></p>
+						</div>
+					</div>
+					<div class="col-35">
+						<div class="follow_block">
+			                <a href="#" data-userid="" onclick="make_unfollow('business');" class="button business_make_unfollow make_unfollow button-green unfollow">Unfollow</a>
+			                <a href="#" data-userid="" onclick="make_follow('business');" class="button business_make_follow make_follow button-red follow">Follow</a>
+			                <a href="#" data-userid="" onclick="make_chat('business');" class="button business_make_chat make_chat button-green chat">Chat</a>
+			            </div>
+					</div>
+					<div class="row" style="padding: 20% 10%; color: rgba(0,0,0,0.51) !important">
+					    <div class="col-100 businessfollowersfollowingaccid" data-businessfollowersfollowingaccid="" style="text-align: center; border-bottom: 2px #9acd50 solid;">
+					        <h2 class="followers business_followers mrg0 pad0">20</h1>
+					        <h4 style="margin: 0 0 7px;">Followers</h2>
+					    </div>
+					    <!-- <div class="col-50" style="text-align: center; border-bottom: 2px #9acd50 solid;">
+					        <h2 class="followings business_followings mrg0 pad0">20</h2>
+					        <h4 style="margin: 0 0 7px;">Following</h4>
+					    </div> -->
+					</div>
+				</div>
+			</div>	
+			<div class="user_blk">
+				<div class="pro_file_icons follow_block call business_make_call" data-businessnumber="">
+					<i class="material-icons">call</i>
+					<p>Call</p>
+				</div>
+				<div class="pro_file_icons chat follow_block">
+					<!-- <a href="#" data-popup=".popup-sendEmail" data-businessemail="" class="open-popup business_email_to color_757575 mrg0" style="font-size: 13px"> -->
+						<center><i class="material-icons">email</i></center>
+					<!-- </a> -->
+					<p class="business_email_to_text" data-businessemail=""></p>
+				</div>
+				<div class="pro_file_icons follow_block">
+					<center><i class="material-icons">location_on</i></center>
+					<p class="business_location_to" data-businesslat="" data-businesslong="" data-company="" data-address="">Location</p>
+				</div>
+			</div>
+			<div class="buttons-row">
+			    <a href="#profile_business_account-feeds" class="tab-link active button mrg0 pad0">Feeds</a>
+			    <a href="#profile_business_account-reviews" class="tab-link button mrg0 pad0">Reviews</a>
+			</div>
+			<div class="tabs">
+			    <!-- Tab 1, active by default -->
+			    <div id="profile_business_account-feeds" class="tab active">
+			        <div class="content-block mrg0 pad0">
+					    <div class="user_own_feed f_box">
+							<div class="profile-feed-container f_box">
+								<div style="clear: both"></div>
+							</div>
+						</div>
+			        </div>
+			    </div>
+			    <!-- Tab 2 -->
+			    <div id="profile_business_account-reviews" class="tab">
+			    	<div class="content-block mrg0 pad0">
+				        <div class="user_own_feed f_box">
+							<div class="profile-reviews_container f_box">
+							</div>
+						</div>
+			    	</div>
+			    </div>
+			</div>
+        </div>
+    </div>
+    <div class="toolbar tabbar toolbar-fixed toolbar-bottom toolbar-bottom-md">
+        <div class="toolbar-inner">
+            <a href="#" class="tab-link offers" onclick="goto_page('feeds.html')">
+                <img src="img/continuous-feed-paper.png" width="32%">
+            </a>
+            <a href="#" class="tab-link create_feed" onclick="goto_page('create_feed.html')">
+                <img src="img/camera2.png" width="36%">
+            </a>
+            <a href="#" class="tab-link notifications" onclick="goto_profile()">
+                <img src="img/user.png" width="32%">
+            </a>
+            <a href="#" class="tab-link chats" onclick="goto_page('chats.html')">
+                <span class="badge bg-red dynamic_messagecount"></span>
+                <img src="img/comments.png" width="32%">
+            </a>
+            <a href="#" class="tab-link notifications" onclick="goto_page('search.html')">
+                <img src="img/magnifier.png" width="32%">
+            </a>
+        </div>
+    </div>
+    <div class="popup popup-review">
+	    <div class="content-block pad_55">
+	        <p>Add Review</p>
+	        <div class="list-block inputs-list">
+                <ul>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-input">
+                            	<div class="row">
+                            		<div class="col-20"><i class="material-icons">star_rate</i></div>
+                            		<div class="col-20"><i class="material-icons">star_rate</i></div>
+                            		<div class="col-20"><i class="material-icons">star_rate</i></div>
+                            		<div class="col-20"><i class="material-icons">star_rate</i></div>
+                            		<div class="col-20"><i class="material-icons">star_rate</i></div>
+                            	</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-input">
+                                <textarea id="review_comments" name="review_comments" placeholder="Write Comments"></textarea>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="content-block register-btn" style="margin-top: 10% !important;">
+                <a id="login-btn" href="#" class="button button-big lo_gin">POST REVIEW</a>
+            </div>
+            <br>
+            <div class="content-block register-btn mrg0">
+                <a id="login-btn" href="#" class="close-popup button button-big lo_gin"">CANCEL</a>
+            </div>
+	        <p style="display: none;"><a href="#" class="close-popup">Cancel</a></p>
+	    </div>
+	</div>
+</div>

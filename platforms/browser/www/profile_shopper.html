@@ -1,0 +1,109 @@
+<div data-page="profile_shopper" class="page">
+	<div class="navbar header">
+        <div class="navbar-inner">
+            <div class="left">
+                <a href="#" class="open-panel link icon-only">
+					<i class="material-icons color_8ac640">menu</i>
+				</a>
+            </div>
+            <div class="center title1"></div>
+            <button class="right no-style" onclick="goto_page('edit_profile_shopper.html');" style="margin-right: 10%; z-index: 1001;"><i class="material-icons color_8ac640">edit</i></button>
+			<img src="img/header-right.png" class="right" alt="" />
+        </div>
+    </div>
+    <div class="page-content padt0">
+        <div class="content-block f_box">
+			<div class="c_b">
+				<!-- <button onclick="profile_cover_image();" class="button button-big cover_image_btn insert_cover">
+					<img src="img/edit-img.png" style="width: 75px;">
+				</button> -->
+				<div class="cover_box">
+					<img width="100%" src="img/pet_cover.png" alt="" class="cover_image">
+				</div>
+				<div class="row">
+					<div class="col-65">
+						<div class="col-100">
+							<div class="pro_pic1">
+								<!-- <button onclick="profile_cover_image();" class="button button-big cover_image_btn edit_profile_img_icon">
+									<img src="img/edit-img.png" style="width: 75px;">
+								</button> -->
+								<img width="30%" src="img/dummy-profile.png" alt="" class="profie_image">
+							</div>
+						</div>
+						<div class="col-100">
+							<p class="p_name textupper" data-business_id=""></p>
+						</div>
+					</div>
+					<div class="col-35">
+						<div class="follow_block">
+			                <a href="#" data-userid="" onclick="make_unfollow('user');" class="button user_make_unfollow make_unfollow button-green unfollow">Unfollow</a>
+			                <a href="#" data-userid="" onclick="make_follow('user');" class="button user_make_follow make_follow button-red follow">Follow</a>
+			                <a href="#" data-userid="" onclick="make_chat('user');" class="button user_sub_make_chat make_chat button-green chat">Chat</a>
+			            </div>
+					</div>
+				</div>
+			</div>
+			<div></div>
+			<div class="row">
+				<div class="col-100" id="pets_and_business_profiles_list">
+				</div>
+			</div>
+			<div class="row" style="padding: 2% 7% 7%; color: rgba(0,0,0,0.51) !important">
+			    <div class="col-50 usersfollowersfollowingaccid" data-usersfollowersfollowingaccid="" style="text-align: center; border-bottom: 2px #9acd50 solid;" onclick="goto_profile_list_follow('followers', 'users');">
+			        <h2 class="followers user_follwers mrg0 pad0">20</h2>
+			        <h4 style="margin: 0 0 7px;">Followers</h4>
+			    </div>
+			    <div class="col-50" style="text-align: center; border-bottom: 2px #9acd50 solid;" onclick="goto_profile_list_follow('followings', 'users');">
+			        <h2 class="followings user_followings mrg0 pad0">20</h2>
+			        <h4 style="margin: 0 0 7px;">Following</h4>
+			    </div>
+			</div>
+			<div class="buttons-row">
+			    <a href="#account-feeds" class="tab-link active button mrg0 pad0">Feeds</a>
+			    <a href="#account-reviews" class="tab-link button mrg0 pad0">Saved</a>
+			</div>
+			<div class="tabs">
+			    <!-- Tab 1, active by default -->
+			    <div id="account-feeds" class="tab active">
+			        <div class="content-block mrg0 pad0">
+					    <div class="user_own_feed f_box">
+							<div class="profile-feed-container f_box">
+								<div style="clear: both"></div>
+							</div>
+						</div>
+			        </div>
+			    </div>
+			    <!-- Tab 2 -->
+			    <div id="account-reviews" class="tab">
+			    	<div class="content-block mrg0 pad0">
+					    <div class="user_own_feed f_box">
+							<div class="profile-save-feed-container f_box">
+								<div style="clear: both"></div>
+							</div>
+						</div>
+			        </div>
+			    </div>
+			</div>
+        </div>
+    </div>
+    <div class="toolbar tabbar toolbar-fixed toolbar-bottom toolbar-bottom-md">
+        <div class="toolbar-inner">
+            <a href="#" class="tab-link offers" onclick="goto_page('feeds.html')">
+                <img src="img/continuous-feed-paper.png" width="32%">
+            </a>
+            <a href="#" class="tab-link create_feed" onclick="goto_page('create_feed.html')">
+                <img src="img/camera2.png" width="36%">
+            </a>
+            <a href="#" class="tab-link notifications" onclick="goto_profile()">
+                <img src="img/user.png" width="32%">
+            </a>
+            <a href="#" class="tab-link chats" onclick="goto_page('chats.html')">
+                <span class="badge bg-red dynamic_messagecount"></span>
+                <img src="img/comments.png" width="32%">
+            </a>
+            <a href="#" class="tab-link notifications" onclick="goto_page('search.html')">
+                <img src="img/magnifier.png" width="32%">
+            </a>
+        </div>
+    </div>
+</div>

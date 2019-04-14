@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'CooperHewitt-Bold';
+  src: url('CooperHewitt-Bold.eot');
+  src: url('CooperHewitt-Bold.woff2') format('woff2'),
+       url('CooperHewitt-Bold.woff') format('woff'),
+       url('CooperHewitt-Bold.ttf') format('truetype'),
+       url('CooperHewitt-Bold.svg#CooperHewitt-Bold') format('svg'),
+       url('CooperHewitt-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+b {
+  font-family: 'CooperHewitt-Bold' !important;
+  letter-spacing: 1.2px !important;
+}

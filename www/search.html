@@ -1,0 +1,59 @@
+<div data-page="search" class="page" id="search_page_css">
+    <div class="navbar header">
+        <div class="navbar-inner">
+            <div class="left">
+                <a href="#" class="back link icon-only">
+                    <i class="material-icons color_8ac640">arrow_back</i>
+                </a>
+            </div>
+            <div class="center title1" id="single-header"></div>
+            <img src="img/header-right.png" class="right" alt="" />
+        </div>
+    </div>
+    <form class="searchbar" method="POST" onsubmit="return loadSearchList();">
+        <div class="searchbar-input">
+            <input type="search" placeholder="Search" id="search_all"><a href="#" class="searchbar-clear"></a>
+        </div>
+        <a href="#" class="searchbar-cancel">Cancel</a>
+    </form>
+    <div class="subnavbar hide">
+        <div class="buttons-row">
+            <a href="#tab1" class="button tab-link active">Users</a>
+            <a href="#tab2" class="button tab-link">Feeds</a>
+            <!-- <a href="#tab3" class="button tab-link">Tags</a> -->
+        </div>
+    </div>
+    <div class="searchbar-overlay"></div>
+    <div class="page-content pad_55" style="top: 65px">
+        <div class="content-block searchbar-not-found">
+            Nothing found
+        </div>
+        <div class="tabs">
+            <div id="tab1" class="tab active">
+                <div class="content-block pad0">
+                    <div class="list-block list-block-search searchbar-found" id="search-list-users">
+                        <ul id="search-list">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="tab2" class="tab">
+                <div class="content-block pad0">
+                    <div class="list-block list-block-search searchbar-found" id="search-list-feeds">
+                        <ul id="search-list">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- <div id="tab3" class="tab">
+                <div class="content-block pad0">
+                    <div class="list-block list-block-search searchbar-found" id="search-list-breeds">
+                        <ul id="search-list">
+                        </ul>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <br><br><br>
+    </div>
+</div>

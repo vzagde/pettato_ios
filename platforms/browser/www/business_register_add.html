@@ -1,0 +1,136 @@
+<div data-page="business_register_add" class="page">
+    <div class="navbar header">
+        <div class="navbar-inner">
+            <div class="left">
+                <a href="#" class="back link icon-only">
+                    <i class="material-icons color_8ac640">arrow_back</i>
+                </a>
+            </div>
+            <div class="center title"></div>
+            <img src="img/header-right.png" class="right" alt="" />
+        </div>
+    </div>
+    <div class="page-content" style="padding-top: 50px;">
+        <form>
+            <div class="list-block inputs-list">
+                <ul>
+                    <!-- <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">Name</div>
+                            <div class="item-input">
+                                <input id="business_register-name" type="text" placeholder="Your Name" />
+                            </div>
+                        </div>
+                    </li> -->
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">Username</div>
+                            <div class="item-input">
+                                <input id="business_register-username" type="text" placeholder="Username" />
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">Business Name</div>
+                            <div class="item-input">
+                                <input id="business_register-buissness" type="text" placeholder="Your Business Name" />
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="item-link smart-select" data-searchbar="true" data-searchbar-placeholder="Search categories">
+                            <select name="car" id="business_register-category">
+                            </select>
+                            <div class="item-content">
+                                <div class="item-inner">
+                                    <div class="item-title">Categories</div>
+                                    <div class="item-after"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="hideInput category_input-register item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">Category</div>
+                            <div class="item-input">
+                                <input id="business_register-categoryInput" type="email" placeholder="Type your own" />
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">Email ID</div>
+                            <div class="item-input">
+                                <input id="business_register-email" type="text" placeholder="Your Email ID" />
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">Phone number</div>
+                            <div class="item-input">
+                                <input id="business_register-phone" type="tel" maxlength="10" class="not-empty-state" placeholder="Your Phone number" />
+                            </div>
+                        </div>
+                    </li>
+                    <!-- <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">Password</div>
+                            <div class="item-input">
+                                <input id="business_register-password" type="password" placeholder="Your Password" />
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">Confirm Password</div>
+                            <div class="item-input">
+                                <input id="business_register-confirm_password" type="password" placeholder="Confirm Password" />
+                            </div>
+                        </div>
+                    </li> -->
+                    <li>
+                        <a href="#" class="item-link smart-select" data-searchbar="true" data-searchbar-placeholder="Search cities" data-back-on-select="true">
+                            <select name="cities" id="business_register-city_select">
+                            </select>
+                            <div class="item-content">
+                                <div class="item-inner">
+                                    <div class="item-title">City</div>
+                                    <div class="item-after"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">Address</div>
+                            <!-- <div class="item-input">
+                                <div id="mapCanvas"></div>
+                            </div>
+                            <br> -->
+                            <div class="item-input">
+                                <textarea id="business_register-address" placeholder="Address"></textarea>
+                                <!-- <input type="text" name="business_register-lat" id="business_register-lat" value="" style="display: none">
+                                <input type="text" name="business_register-lng" id="business_register-lng" value="" style="display: none"> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title">Profile pic</div>
+                            <div class="item-input">
+                                <a href="#" id="business_register-profile_btn" onclick="open_dialog_for_image('user_profile')" class="floating-button black_clr btn-center">
+                                    <i class="material-icons">add_a_photo</i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="content-block submit-btn">
+                <a href="#" class="button button-big" onclick="register_business()">Add Business</a>
+            </div>
+        </form>
+    </div>
+</div>
