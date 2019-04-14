@@ -19,28 +19,7 @@
     <preference name="AndroidLaunchMode" value="singleInstance" />
     <preference name="StatusBarStyle" value="lightcontent" />
     <icon src="app_icon.png" />
-    <platform name="android">
-        <icon density="hdpi" src="www/res/icon/android/drawable-hdpi-icon.png" />
-        <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
-        <icon density="mdpi" src="www/res/icon/android/drawable-mdpi-icon.png" />
-        <icon density="xhdpi" src="www/res/icon/android/drawable-xhdpi-icon.png" />
-        <icon density="xxhdpi" src="www/res/icon/android/drawable-xxhdpi-icon.png" />
-        <icon density="xxxhdpi" src="www/res/icon/android/drawable-xxxhdpi-icon.png" />
-        <splash density="port-hdpi" src="www/res/screen/android/drawable-port-hdpi-screen.png" />
-        <splash density="port-ldpi" src="www/res/screen/android/drawable-port-ldpi-screen.png" />
-        <splash density="port-mdpi" src="www/res/screen/android/drawable-port-mdpi-screen.png" />
-        <splash density="port-xhdpi" src="www/res/screen/android/drawable-port-xhdpi-screen.png" />
-        <splash density="port-xxhdpi" src="www/res/screen/android/drawable-port-xxhdpi-screen.png" />
-        <splash density="port-xxxhdpi" src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" />
-        <splash density="land-hdpi" src="www/res/screen/android/drawable-land-hdpi-screen.png" />
-        <splash density="land-ldpi" src="www/res/screen/android/drawable-land-ldpi-screen.png" />
-        <splash density="land-mdpi" src="www/res/screen/android/drawable-land-mdpi-screen.png" />
-        <splash density="land-xhdpi" src="www/res/screen/android/drawable-land-xhdpi-screen.png" />
-        <splash density="land-xxhdpi" src="www/res/screen/android/drawable-land-xxhdpi-screen.png" />
-        <splash density="land-xxxhdpi" src="www/res/screen/android/drawable-land-xxxhdpi-screen.png" />
-    </platform>
     <platform name="ios">
-        <icon src="www/res/icon/ios/icon-512-2x.png" platform="ios" width="1024" height="1024" />
         <icon height="57" platform="ios" src="www/res/icon/ios/icon.png" width="57" />
         <icon height="114" platform="ios" src="www/res/icon/ios/icon@2x.png" width="114" />
         <icon height="40" platform="ios" src="www/res/icon/ios/icon-40.png" width="40" />
@@ -57,6 +36,8 @@
         <icon height="29" platform="ios" src="www/res/icon/ios/icon-small.png" width="29" />
         <icon height="58" platform="ios" src="www/res/icon/ios/icon-small@2x.png" width="58" />
         <icon height="87" platform="ios" src="www/res/icon/ios/icon-small@3x.png" width="87" />
+        <icon height="1024" platform="ios" src="www/res/icon/ios/icon-1024.png" width="1024" />
+        <icon height="1024" platform="ios" src="www/res/icon/ios/icon-512-2x.png" width="1024" />
         <splash height="1136" platform="ios" src="www/res/screen/ios/Default-568h@2x~iphone.png" width="640" />
         <splash height="1334" platform="ios" src="www/res/screen/ios/Default-667h.png" width="750" />
         <splash height="2208" platform="ios" src="www/res/screen/ios/Default-736h.png" width="1242" />
