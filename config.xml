@@ -18,7 +18,7 @@
     <preference name="StatusBarBackgroundColor" value="#BE1912" />
     <preference name="AndroidLaunchMode" value="singleInstance" />
     <preference name="StatusBarStyle" value="lightcontent" />
-    <icon src="app_icon.png" />
+    <icon src="app_icon.png" width="1024" height="1024" />
     <platform name="ios">
         <icon height="57" platform="ios" src="www/res/icon/ios/icon.png" width="57" />
         <icon height="114" platform="ios" src="www/res/icon/ios/icon@2x.png" width="114" />
